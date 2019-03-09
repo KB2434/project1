@@ -1,58 +1,108 @@
-body{
+body {
     background-color: pink
-    
 }
 
-.nav-link{
+.nav-link {
     font-weight: lighter
 }
 
-.nav-link:hover{
+.nav-link:hover {
     font-weight: bolder;
-    background-color: #eee;
+    background-color:#eee;
 }
-header{
+
+header {
     height: 600px;
     width: 100%;
     background-image: url("picture.jpg");
     background-size: cover;
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
-    
-}
-header p{
-    font-style: 100px; 
+
 }
 
-.aboutus{
+header p {
+    font-style: 100px;
+}
+
+.aboutus {
     text-align: center;
 }
-    
 
-.aboutus i{
+
+.aboutus i {
     font-size: 30px;
     padding: 25px 20px;
     /*change  the color*/
-    color:#fff;
+    color: #fff;
     background-color: #5cb85c;
-    
+
     /*resize container of icon*/
-    width:80px;
-    heigth:80px;
-    
+    width: 80px;
+    heigth: 80px;
+
     /*make the contanier round*/
-    border-radius:50%;
+    border-radius: 50%;
 }
-.aboutus span{
-    width: 200px;
-    display:inline-block;
+
+.contact.btn{
+    border-radius: 0;
+    width: 100%
+    font-size:15px;
+    background-color:#FF1493
+    color:#fff;
 }
-    
-    
-    
-    
-    
+.aboutus span {
+    width: 250px;
+    display: inline-block;
 }
-heder div{
+
+/*Team*/
+
+.team {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.team img {
+    width: 250px;
+    height: 250px;
+    /*object fit will crop and center image based on width and hegight*/
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+/*Get Involved*/
+
+.getinvolved {
+    background-color: #fff;
+    text-align: center;
+}
+
+.option {
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid #ccc;
+
+    background-color:#FF1493;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.getinvolved i {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+}
+header div {
     font-size-adjust: inherit;
 }
+.contact.btn{
+    border-radius: 0;
+    width: 100%;
+    font-size:15px;
+    background-color:#f08080;
+    color:#fff;
+}  
