@@ -8,7 +8,7 @@ body {
 
 .nav-link:hover {
     font-weight: bolder;
-    background-color:#eee;
+    background-color: #eee;
 }
 
 header {
@@ -45,13 +45,12 @@ header p {
     border-radius: 50%;
 }
 
-.contact.btn{
+.contact.btn {
     border-radius: 0;
-    width: 100%
-    font-size:15px;
-    background-color:#FF1493
-    color:#fff;
+    width: 100% font-size:15px;
+    background-color: #FF1493 color:#fff;
 }
+
 .aboutus span {
     width: 250px;
     display: inline-block;
@@ -86,7 +85,7 @@ header p {
     margin: 10px;
     border: 1px solid #ccc;
 
-    background-color:#FF1493;
+    background-color: #FF1493;
     border-radius: 5px;
     margin-top: 30px;
 }
@@ -96,13 +95,19 @@ header p {
     height: 50px;
     font-size: 40px;
 }
+
 header div {
     font-size-adjust: inherit;
 }
-.contact.btn{
+
+.contact.btn {
     border-radius: 0;
     width: 100%;
-    font-size:15px;
-    background-color:#f08080;
-    color:#fff;
-}  
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+}
+footer { 
+  display: block;
+} 
+
